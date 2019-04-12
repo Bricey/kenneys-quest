@@ -1,0 +1,1 @@
+var RPG=RPG||{};RPG.getGameLandscapeDimensions=function(i,n){var e=window.innerWidth*window.devicePixelRatio,a=window.innerHeight*window.devicePixelRatio,t=Math.max(e,a),w=Math.min(e,a);if(t>i){var d=i/t;t*=d,w*=d}if(w>n){var o=i/t;t*=o,w*=o}return{w:t,h:w}};

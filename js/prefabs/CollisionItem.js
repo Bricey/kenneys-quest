@@ -1,0 +1,1 @@
+var RPG=RPG||{};RPG.CollisionItem=function(t,e,i,o,s){Phaser.Sprite.call(this,t.game,e,i,o),this.state=t,this.game=t.game,this.data=s,this.anchor.setTo(.5),this.game.physics.arcade.enable(this),this.body.immovable=!0},RPG.CollisionItem.prototype=Object.create(Phaser.Sprite.prototype),RPG.CollisionItem.prototype.constructor=RPG.CollisionItem;
